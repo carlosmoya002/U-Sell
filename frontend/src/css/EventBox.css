@@ -1,0 +1,36 @@
+.event-box {
+  justify-content: center;
+  align-items: center;
+  border: solid black;
+  border-width: 1.5px;
+  border-radius: 10px;
+  display: inline-block;
+  width: calc(33.33% - 20px); /* Adjust the width as needed for your layout */
+  margin: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.event-box .card {
+  width: 100%;
+}
+
+.event-box .button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.event-box .card-title {
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.item-card {
+  background-color: #55497180;
+}
+
+.info-section {
+  background-color: #f4f4f4;
+}
