@@ -1,0 +1,39 @@
+/* ItemInfoScreen.css */
+.item-info-container {
+  margin: 20px; /* Add some margin for spacing */
+}
+
+.item-card {
+  display: flex; /* Nested flex container for the card */
+}
+
+.item-image {
+  flex: 7; /* Set the image part to 70% */
+  background-color: transparent;
+}
+
+.item-image img {
+  width: 100%; /* Make sure the image takes 100% width of its container */
+  height: auto; /* Allow the height to adjust proportionally */
+}
+
+.info-section {
+  flex: 5; /* Set the info section to 30% */
+  background-color: transparent; /* Set the background color for the info section */
+  padding: 20px; /* Add some padding for better spacing inside the info section */
+}
+
+.description-section {
+  margin-top: 70px; /* Add some spacing between the info and description sections */
+  background-color: #5549714c;
+  padding: 20px;
+}
+
+.similar-items-heading {
+  margin-top: 70px;
+  font-size: 35px;
+}
+
+.similar-items {
+  margin-top: 15px;
+}
