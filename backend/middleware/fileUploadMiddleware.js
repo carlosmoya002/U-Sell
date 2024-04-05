@@ -29,4 +29,4 @@ const upload = multer({
   fileFilter: fileFilter,
 });
 
-export { upload };
+export {upload};
